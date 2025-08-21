@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MTK PDA Kota Malang</title>
+  <style>
+   body {
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #edffbc, #d1ffe7, #edffbc, #d1ffe7);
+      background-size: 400% 400%;
+      animation: gradientMove 2s ease infinite;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0;
+      padding: 20px;
+    }
+
+    @keyframes gradientMove {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    .card {
+        background-image: 
+          linear-gradient(to bottom, rgba(94, 248, 145, 0.6), rgba(181, 252, 114, 0.623)),
+          url(aisyiyah.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center 0px;
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
+    }
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 4px solid #ebf785;
+    }
+    h1 {
+      margin: 10px 0;
+      font-size: 2rem;
+      color: #184e35;
+    }
+    h2 {
+      margin: 10px 0;
+      font-size: 1.5rem;
+      color: #184e35;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #184e35;
+      margin-bottom: 25px;
+    }
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px 0;
+      padding: 14px;
+      background: linear-gradient(135deg, #91db5f 0%, #30b570 100%);;
+      color: #f8f2d9;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 12px;
+      transition: transform 0.2s, background 0.3s;
+    }
+    .link svg {
+      margin-right: 8px;
+    }
+    .link:hover {
+      transform: scale(1.05);
+      background: #30b570;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="aisyiyah-utama.png" alt="Foto Profil" class="avatar">
+    <h1>Majelis Tabligh dan Ketarjihan</h1>
+    <h2>Pimpinan Daerah Aisyiah Kota Malang</h2>
+    <p>Bisa menghubungi kami melalui; ✨</p>
+
+    <a class="link" href="https://instagram.com/mtkpdakotamalang" target="_blank">
+      <!-- Ikon Instagram -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"></path>
+        <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+      </svg>
+      Instagram
+    </a>
+
+    <a class="link" href="https://wa.me/6285179806027" target="_blank">
+      <!-- Ikon WhatsApp -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+        <path d="M21.5 12a9.5 9.5 0 01-14.3 8.2L2.5 22l1.8-4.7A9.5 9.5 0 1121.5 12z"></path>
+      </svg>
+      WhatsApp
+    </a>
+
+    <a class="link" href="https://youtube.com/@mtpdamalkotchannel8716?si=FbdbqMthMnHz7lw-" target="_blank">
+   <!-- Ikon YouTube -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+        <path d="M10 15.5V8.5L16 12l-6 3.5z"></path>
+        <rect x="1" y="5" width="22" height="15" rx="4" ry="4"></rect>
+      </svg>
+      YouTube
+    </a>
+
+      <a class="link" href="https://www.facebook.com/share/19j6Lbp8gY" target="_blank">
+        <!-- Ikon Facebook -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+        </svg>
+        Facebook
+      </a>
+
+  </div>
+</body>
+</html>
